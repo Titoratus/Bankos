@@ -1,0 +1,6 @@
+DefaultLanguage ru
+AddDefaultCharset utf-8
+php_value default_charset "utf-8"
+<Files "*.txt">
+deny from all
+</Files>

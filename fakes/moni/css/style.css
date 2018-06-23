@@ -1,0 +1,16 @@
+.like{
+	cursor:pointer;
+	width:0;
+	height:0;
+	margin:10px auto 40px;
+	position:relative;
+}
+.like .counter{
+	border: 5px solid #333333;
+    bottom: -33px;
+    color: #333333;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+    width: 48px;
+}

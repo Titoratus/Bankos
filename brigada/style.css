@@ -1,0 +1,57 @@
+.button{border:none;color:#f2f2f2;padding:5px;font-size:15px;border-radius:0;position:relative;box-sizing:border-box;transition:all 500ms ease}
+.button:before{content:'';position:absolute;top:0;left:0;width:0;height:100%;background:rgba(255,255,255,0.3);border-radius:0;transition:all 1s ease}
+.button:hover:before{width:100%}.button:hover{background:rgba(0,0,0,0);color:red;box-shadow:inset 0 0 0 3px #02ff21}.blue{background:#4b92fb}
+.red{background:#fb333c}
+.green{background:#00a22a}
+.flat_button{padding:7px 16px 8px;margin:1px;font-size:12.5px;display:inline-block;zoom:1;cursor:pointer;white-space:nowrap;outline:none;font-family:-apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;vertical-align:top;line-height:15px;text-align:center;text-decoration:none;background:none;background-color:#5e81a8;color:#fff;border:0;border-radius:2px;box-sizing:border-box;width:600px}
+.textinput {
+ font-size: 16px;
+ border: 10px solid rgba(255, 255, 255, .5);
+ @include box-shadow(
+ 0 2px 10px rgba(0, 0, 0, .25) inset,
+ 0 2px 10px rgba(0, 0, 0, .25));
+ @include border-radius(5px);
+ background: rgba(255, 255, 255, .5);
+ @include appearance(none);
+ outline: none;
+ color: #333;
+}
+
+.btn22 {display: block; cursor: pointer;}
+.buttons22 {background-color: #4CAF50;border: none;color: white;padding: 5px 12px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
+.spoiler input[type=checkbox] {display: none;}
+.spoiler input[type=checkbox] + .text {display: none;}
+.spoiler input[type=checkbox]:checked + .text {display: block;}
+
+.custom-select {
+	width: 50px;
+	height: 30px;
+	overflow: hidden;
+	background: #f7f7f7 url(../images/select_arrow.png) no-repeat 127px 13px;
+	border-radius: 5px;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.custom-select select {
+	width: 80px;
+	height: 30px;
+	background: transparent;
+	background: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+	border: 0;
+	outline: 0;
+	font: 12px Arial;
+	color: #4f4f4f;
+	padding: 6px 8px;
+}
+
+.custom-select:hover {
+	background-color: #fff;
+}
+.textauto {
+color: #fff;
+font-size: 30px;
+font-weight: bold;
+font-family: Helvetica;
+text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}

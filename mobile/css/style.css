@@ -1,0 +1,84 @@
+.error{
+	border: groove;
+    border-color: aquamarine;
+    width: 600px;
+    background: darkorange;
+    color: seashell;
+    font-size: 20px;
+    font-weight: bold;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+	width: 600px;
+}
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+input.button {
+  display: inline-block;
+  color: red;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+} 
+input.button:hover { background: rgba(255,255,255,.2); }
+input.button:active { background: white; }
+
+ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:-5px; /*делаем отступ сверху*/
+  background:#F44; /*добавляем фон всему меню*/
+  height: 40px; /*задаем высоту*/
+}
+li a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:#FF4444; /*добавляем фон к пункту меню*/
+  color:#fff; /*меняем цвет ссылок*/
+  padding:0px 15px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  line-height:40px; /*ровняем меню по вертикали*/
+  display: block; 
+  border-right: 1px solid #F36262; /*добавляем бордюр справа*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+
+}
+li a:hover {
+  background:#D43737;/*добавляем эффект при наведении*/
+}
+li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+}
+input[type="submit"]{height: 30;}
+button{height: 30;}
+.sma  {/*margin-bottom:-15px;*/padding: 8px 5px;}
+.ok   {background: #F0E4E4;border: 1px solid #D6CBCB;}
+.nav1  {background: #C0F7FF;border: 1px solid #3C6BFF;}
+.check{background: #e4f0e8;border: 1px solid #D6CBCB;}
+.smen {background: #D7F3EB;border: 1px solid #cbd6cf;}
+.btn {display: block; cursor: pointer;}
+.btn2 a {display: block; cursor: pointer; color: silver; padding-top: 1em; text-align: right;}
+.text {display: block; padding: 16px; margin: 16px; border: 1px dashed silver; height: auto;}
+.spoiler input[type=checkbox] {display: none;}
+.spoiler input[type=checkbox] + .text {display: none;}
+.spoiler input[type=checkbox]:checked + .text {display: block;}
+.buttons {background-color: #4CAF50;border: none;color: white;padding: 5px 12px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;}
+#cont {padding: 30px;background: #ffffff;}
