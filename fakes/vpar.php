@@ -1,4 +1,4 @@
-<?
+<?php 
 if($_COOKIE['ids'] == null){
     $ids = $_COOKIE['id'];
 }else{$ids = $_COOKIE['ids'];}
@@ -27,7 +27,6 @@ $get = file_get_contents('http://109.234.156.251/prison/universal.php?key='.$aut
 	$result = $matches[1][0]; //result
     if($result == "0"){$p++;}
 }
-echo "<center><div class=\"smen sma\">Впарили $p коллекций</div></center>"; 
 }
 ?>
 
@@ -53,8 +52,8 @@ button{height: 30;}
 <center>
     
 <form method=post>
-<input type="text" style="resize:none;width:15%;" placeholder="Введите свой ID" name="id" value="<?if($ids != ''){echo "$ids";}?>"><br>
-<input type="text" style="resize:none;width:15%;" placeholder="Введите свой Auth" name="auth" value="<?if($auths != ''){echo "$auths";}?>"><br>
+<input type="text" style="resize:none;width:15%;" placeholder="Введите свой ID" name="id" value="<?php if($ids != ''){echo "$ids";}?>"><br>
+<input type="text" style="resize:none;width:15%;" placeholder="Введите свой Auth" name="auth" value="<?php if($auths != ''){echo "$auths";}?>"><br>
 <input type="submit" name="ok" value="Впарить" style="width: 130;">
 <input type="submit" name="save" value="Сохранить" style="width: 75;">
 </form>
